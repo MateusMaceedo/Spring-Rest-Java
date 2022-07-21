@@ -26,7 +26,6 @@ import lombok.AllArgsConstructor;
 @RestController
 @RequestMapping("/clientes")
 public class ClienteController {
-
 	private ClienteRepository clienteRepository;
 	private CatalogoClienteService catalogoClienteService;
 
@@ -71,5 +70,4 @@ public class ClienteController {
 		
 		return ResponseEntity.noContent().build();
 	}
-	
 }

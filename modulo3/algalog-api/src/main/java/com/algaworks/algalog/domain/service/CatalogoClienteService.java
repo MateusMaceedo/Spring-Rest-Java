@@ -37,5 +37,4 @@ public class CatalogoClienteService {
 	public void excluir(Long clienteId) {
 		clienteRepository.deleteById(clienteId);
 	}
-	
 }

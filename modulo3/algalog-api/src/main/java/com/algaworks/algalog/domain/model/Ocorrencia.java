@@ -28,5 +28,4 @@ public class Ocorrencia {
 	
 	private String descricao;
 	private OffsetDateTime dataRegistro;
-	
 }

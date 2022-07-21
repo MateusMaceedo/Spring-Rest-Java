@@ -78,5 +78,4 @@ public class Entrega {
 	public boolean naoPodeSerFinalizada() {
 		return !podeSerFinalizada();
 	}
-	
 }

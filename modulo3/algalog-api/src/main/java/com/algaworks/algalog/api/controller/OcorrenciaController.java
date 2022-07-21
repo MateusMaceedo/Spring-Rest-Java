@@ -41,7 +41,6 @@ public class OcorrenciaController {
 				.registrar(entregaId, ocorrenciaInput.getDescricao());
 		
 		return ocorrenciaAssembler.toModel(ocorrenciaRegistrada);
-		
 	}
 	
 	@GetMapping
@@ -50,5 +49,4 @@ public class OcorrenciaController {
 		
 		return ocorrenciaAssembler.toCollectionModel(entrega.getOcorrencias());
 	}
-	
 }

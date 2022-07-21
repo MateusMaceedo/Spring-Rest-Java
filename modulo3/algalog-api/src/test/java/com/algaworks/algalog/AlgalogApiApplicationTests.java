@@ -9,5 +9,4 @@ class AlgalogApiApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
