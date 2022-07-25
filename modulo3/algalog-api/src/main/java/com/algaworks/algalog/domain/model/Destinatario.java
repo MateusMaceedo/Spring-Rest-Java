@@ -31,4 +31,5 @@ public class Destinatario {
 	@NotBlank
 	@Column(name = "destinatario_bairro")
 	private String bairro;
+	
 }

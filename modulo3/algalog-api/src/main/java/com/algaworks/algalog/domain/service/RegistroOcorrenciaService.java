@@ -20,4 +20,5 @@ public class RegistroOcorrenciaService {
 		
 		return entrega.adicionarOcorrencia(descricao);
 	}
+	
 }

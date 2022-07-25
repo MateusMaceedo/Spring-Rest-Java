@@ -26,5 +26,7 @@ public class Problema {
 		
 		private String nome;
 		private String mensagem;
+		
 	}
+	
 }

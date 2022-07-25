@@ -19,4 +19,5 @@ public class EntregaModel {
 	private StatusEntrega status;
 	private OffsetDateTime dataPedido;
 	private OffsetDateTime dataFinalizacao;
+	
 }
